@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+   
+   
+
+}
+
+body{
+    background-image:  url(barbearia.d.jpg);
+ background-size: cover;
+ background-attachment: fixed; 
+ margin: 0;
+ padding: 0;
+ height: 100vh; 
+
+
+}
+
+
+#menu-h ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    padding: 20px;
+    margin-top: -10px;
+    margin-right: -20px;
+    margin-left: -20px;
+   
+}
+
+
+#menu-h li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 25px;
+    
+    
+   
+}
+
+#menu-h ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+
+
+.container {
+   position: relative;
+    
+    width: 430px;
+    height:630px;
+    justify-items: center;
+    font-size:25px ;
+    font-size: 30px;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgba(99, 82, 82, 0.079);
+   
+
+   
+   
+    
+    
+}
+
+
+
+ p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
